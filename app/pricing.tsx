@@ -29,8 +29,7 @@ export default function Pricing({ standalone = false }: { standalone?: boolean }
   return (
     <div className="pricing" id="pricing">
       <div>
-        <p className="eyebrow">SERVICE &amp; PRICE</p>
-        <Heading className="pricing-heading mt-3">サービス料金表</Heading>
+        <Heading className="pricing-heading">サービス料金表</Heading>
         <p className="pricing-note">2026年11月20日制定・すべて税込価格</p>
       </div>
       <PriceTable heading={Heading} title="Webサイト制作" columns={["プラン", "料金", "制作内容", "修正"]} rows={[
