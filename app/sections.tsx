@@ -43,13 +43,21 @@ export function WorksSection({ standalone = false }: { standalone?: boolean }) {
   const Heading = standalone ? PageHeading : "h2";
   const ProjectHeading = standalone ? "h2" : "h3";
   return (
-    <section id="works" className="section compact frame">
+    <section id="works" className="section compact frame items-start">
       <div><p className="eyebrow">WORKS</p><Heading>制作実績</Heading></div>
-      <article className="pricing-card contact-info border border-[var(--line)]">
-        <p className="service-english">WEB DESIGN / GOOGLE SITES</p>
-        <ProjectHeading className="work-title mt-2 text-lg font-bold">VECTO</ProjectHeading>
-            <a href="https://sites.google.com/view/vect-official/home">VECTOのサイトを見る <Arrow diagonal /></a>
-      </article>
+      <div className="grid gap-4">
+        <article className="pricing-card contact-info border border-[var(--line)]">
+          <p className="service-english">WEB DESIGN / GOOGLE SITES</p>
+          <ProjectHeading className="work-title mt-2 text-lg font-bold">VECTO</ProjectHeading>
+          <a href="https://sites.google.com/view/vect-official/home">VECTOのサイトを見る <Arrow diagonal /></a>
+        </article>
+        <article className="pricing-card contact-info border border-[var(--line)]">
+          <p className="service-english">WEB DESIGN / GOOGLE SITES</p>
+          <ProjectHeading className="work-title mt-2 text-lg font-bold">LUMÉ HAIR SALON</ProjectHeading>
+          <p className="mt-2">美容室のWebサイト制作サンプル</p>
+          <a href="https://sites.google.com/view/lumesalon/home">LUMÉ HAIR SALONのデモサイトを見る <Arrow diagonal /></a>
+        </article>
+      </div>
     </section>
   );
 }
