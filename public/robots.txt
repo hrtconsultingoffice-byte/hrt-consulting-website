@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hrt-consulting-website.vercel.app/sitemap.xml
