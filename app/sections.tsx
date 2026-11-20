@@ -47,6 +47,12 @@ export function WorksSection({ standalone = false }: { standalone?: boolean }) {
       <div><p className="eyebrow">WORKS</p><Heading>制作実績</Heading></div>
       <div className="grid gap-4">
         <article className="pricing-card contact-info border border-[var(--line)]">
+          <p className="service-english">WEB DESIGN / NEXT.JS · ポートフォリオ用デモ</p>
+          <ProjectHeading className="work-title mt-2 text-lg font-bold">AXIOM PARTNERS</ProjectHeading>
+          <p className="mt-2">架空の経営コンサルティング会社を想定したコーポレートサイト。企業理念、事業サービス、お問い合わせフォームを含む6ページを設計・制作しました。</p>
+          <a href="/portfolio/axiom-partners">AXIOM PARTNERSのデモサイトを見る <Arrow diagonal /></a>
+        </article>
+        <article className="pricing-card contact-info border border-[var(--line)]">
           <p className="service-english">WEB DESIGN / GOOGLE SITES</p>
           <ProjectHeading className="work-title mt-2 text-lg font-bold">VECTO</ProjectHeading>
           <a href="https://sites.google.com/view/vect-official/home">VECTOのサイトを見る <Arrow diagonal /></a>
